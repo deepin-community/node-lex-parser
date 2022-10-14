@@ -1,0 +1,20 @@
+debian has nodejs command
+
+Index: node-lex-parser/Makefile
+===================================================================
+--- node-lex-parser.orig/Makefile
++++ node-lex-parser/Makefile
+@@ -5,11 +5,11 @@ install:
+ #	npm install
+ 
+ build:
+-	node ./node_modules/.bin/jison lex.y lex.l
++	nodejs ./node_modules/.bin/jison lex.y lex.l
+ 	mv lex.js lex-parser.js
+ 
+ test:
+-	node tests/all-tests.js
++	nodejs tests/all-tests.js
+ 
+ 
+ 

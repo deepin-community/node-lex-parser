@@ -1,0 +1,29 @@
+node-lex-parser (0.1.4-5) unstable; urgency=medium
+
+  * Run make before make test in autopkgtest
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 16 Oct 2016 15:37:24 +0530
+
+node-lex-parser (0.1.4-4) unstable; urgency=medium
+
+  * Add nodejs to depends and build deps (fix autopkgtest) 
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 16 Oct 2016 12:58:42 +0530
+
+node-lex-parser (0.1.4-3) unstable; urgency=medium
+
+  * Make the package arch:all (fixes build failures) 
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 16 Oct 2016 10:03:07 +0530
+
+node-lex-parser (0.1.4-2) unstable; urgency=medium
+
+  * Use system jison (Closes: #840756) 
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 15 Oct 2016 22:27:07 +0530
+
+node-lex-parser (0.1.4-1) unstable; urgency=medium
+
+  * Initial release (Closes: #840712)
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 14 Oct 2016 10:29:37 +0530

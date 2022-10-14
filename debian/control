@@ -1,0 +1,20 @@
+Source: node-lex-parser
+Section: web
+Priority: optional
+Maintainer: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper (>= 9)
+ , nodejs
+ , jison
+ , node-test
+Standards-Version: 3.9.8
+Homepage: https://github.com/zaach/lex-parser
+Vcs-Git: https://anonscm.debian.org/pkg-javascript/node-lex-parser.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-lex-parser.git
+
+Package: node-lex-parser
+Architecture: all
+Depends: nodejs, ${shlibs:Depends}, ${misc:Depends}
+Description: parser for lexical grammars used by jison and jison-lex
+ See /usr/share/doc/node-lex-parser/README.md for documentation
+ .
+ Node.js is an event-based server-side JavaScript engine.

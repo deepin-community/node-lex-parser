@@ -1,0 +1,15 @@
+Required dependencies are added in debian/control
+
+Index: node-lex-parser/Makefile
+===================================================================
+--- node-lex-parser.orig/Makefile
++++ node-lex-parser/Makefile
+@@ -2,7 +2,7 @@
+ all: install build test
+ 
+ install:
+-	npm install
++#	npm install
+ 
+ build:
+ 	node ./node_modules/.bin/jison lex.y lex.l

@@ -1,0 +1,15 @@
+use jison from debian
+
+Index: node-lex-parser/Makefile
+===================================================================
+--- node-lex-parser.orig/Makefile
++++ node-lex-parser/Makefile
+@@ -5,7 +5,7 @@ install:
+ #	npm install
+ 
+ build:
+-	nodejs ./node_modules/.bin/jison lex.y lex.l
++	jison lex.y lex.l
+ 	mv lex.js lex-parser.js
+ 
+ test:
