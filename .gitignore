@@ -1,1 +1,7 @@
-.pc/
+lex-parser.js
+node_modules/
+
+# Editor bak files
+*~
+*.bak
+*.orig

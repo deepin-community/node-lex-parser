@@ -1,5 +1,0 @@
-Tests: require
-Depends: @
-
-Test-Command: make; make test
-Depends: @, @builddeps@
