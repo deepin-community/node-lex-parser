@@ -3,7 +3,6 @@
 %:
 	dh $@
 
-override_dh_auto_clean:
-	dh_auto_clean
-	rm -f lex-parser.js
-
+override_dh_auto_build:
+	jison lex.y lex.l
+	mv lex.js lex-parser.js
